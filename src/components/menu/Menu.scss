@@ -1,0 +1,91 @@
+*{
+  font-family: 'Rubik', sans-serif;
+
+}
+
+div.menu{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(161, 160, 160, 0.548);
+
+    div.menu_content{
+        width: 382px;
+        padding: 20px 40px;
+        background-color: #fff;
+        
+        div.cancel{
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 28px;
+            img{
+    
+            }
+        }
+    
+        div.menu_block{
+            ul{
+                li{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border: 0.5px solid rgba(66, 68, 90, 0.15);
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    padding: 6px 20px;
+                    margin-bottom: 8px;
+                    div.left_box{
+                        background: #70ADEE;
+                        width: 38px;
+                        height: 38px;
+                        border-radius: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        img{
+    
+                        }
+    
+                    }
+    
+                    p{
+                        font-weight: 400;
+                        font-size: 12px;
+                        color: #708088;
+                        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);
+                        text-align: start;
+    
+                    }
+    
+                    div.right_box{
+                        img{
+                            
+                        }
+                    }
+                }
+            }
+        }
+    
+    
+        div.text_bottom{
+            margin-top: 20px;
+            text-align: start;
+            h3{
+    
+            }
+        }
+    
+    
+        div.icon_bottom{
+            margin-top: 20px;
+            text-align: start;
+
+
+            img{
+                margin-right: 26px;
+    
+            }
+        }
+    }
+}
