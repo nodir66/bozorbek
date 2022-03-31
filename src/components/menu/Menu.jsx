@@ -20,6 +20,8 @@ import facebook from "../../assets/img/facebook.png"
 export const Menu = () => {
     return (
         <div>
+
+            <h1>123456</h1>
             <div className="menu">
             <div className="menu_content">
                 <div className="cancel">
